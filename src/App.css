@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header{
+  font-size: 1.3cm;
+  color: blueviolet;
+  text-shadow: 5px 5px 5px black;
+  margin-top: -50px;
+}
+
+.balance{
+  margin-top: -.8cm;
+}
+
+.income{
+  background-color: burlywood;
+  height: 3cm;
+  width: 5cm;
+  margin-top: -0.3cm;
+  margin-left: 12cm;
+  box-shadow: 4px 4px 4px black;
+}
+.income h4{
+  background-color: coral;
+  height: 1.5cm;
+  box-shadow: 2px 2px 2px black;
+  font-size: .5cm;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.expenses{
+  background-color:  burlywood ;
+  height: 3cm;
+  width: 5cm;
+  margin-top: -3.65cm;
+  margin-left: 19cm;
+  box-shadow: 4px 4px 4px black;
+}
+.expenses h4{
+  background-color: coral;
+  height: 1.5cm;
+  box-shadow: 2px 2px 2px black;
+  font-size: .5cm;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.history{
+  border: none;
+  border-bottom: 4px solid blueviolet;
+  box-shadow: 2px 2px black;
+}
+.list{
+  background-color: coral ;
+  max-width: 12cm;
+  margin-left: 11cm;
+  text-align: left;
+  font-family: cursive;
+  font-size: .5cm;
+  box-shadow: 3px 3px 3px black;
+  margin-top: .2cm;
+  border-right: 8px solid burlywood ;
+}
+
+.head{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .5cm;
+  margin-top: .9cm;
+  border-bottom: 4px solid blueviolet;
+  width: 8cm;
+  margin-left: 14.5cm;
+}
+
+.text label{
+  font-size: .6cm;
+  font-family:  Arial, Helvetica, sans-serif;
+  
+}
+
+.text input{
+  margin-left: .4cm;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: .3cm;
+  outline: none;
+}
+
+.amount label{
+  font-size: .6cm;
+  font-family:  Arial, Helvetica, sans-serif;
+  margin-left: .3cm;
+  margin-top: 1cm
+}
+
+.amount input{
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
